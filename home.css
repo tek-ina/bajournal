@@ -1,0 +1,57 @@
+    .link{
+        color: rgba(108, 85, 143, 0.982);
+        text-decoration: none;
+    }
+    .heading{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    button:hover{
+        background-color:  rgba(137, 200, 255, 0.624);
+        color: rgba(73, 116, 18, 0.821);
+        box-shadow: 0.2px 0.5px 5px rgba(45, 115, 208, 0.763);
+    }
+
+    button:active{
+        background-color: rgba(18, 90, 141, 0.973);
+        color: yellowgreen;
+        box-shadow: 0.2px 0.5px 5px rgba(0, 110, 255, 0.763);
+
+    }
+    button {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-weight: lighter;
+        cursor: pointer;
+        box-shadow: 0.4px 0.5px 5px rgba(0, 170, 255, 0.377);
+        height: 30px;
+        width: 100px;
+        border-radius: 15px;
+        border-width: 0.5px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(38, 74, 148);
+        transition: background-color 0.5s, color 0.4s, box-shadow 0.2s;
+    }
+    .sign {
+        background-color: rgba(137, 200, 255, 0.382);
+        transition: all 0.5s;
+        margin-left: 30px;
+    }
+    .sign:hover {
+        margin-right: 20px;
+        margin-left: 40px;
+        width:80px;
+    }
+    .join {
+        background-color: rgba(137, 200, 255, 0.382);
+        transition: all 0.5s;
+        margin-left: 30px;
+    }
+    .join:hover {
+        margin-right: 20px;
+        margin-left: 40px;
+        width:80px;
+    }

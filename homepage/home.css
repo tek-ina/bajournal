@@ -74,19 +74,19 @@
 
     .box1 {
         margin-top: 10px;
-        display: grid;
-        grid-template-columns: repeat(1,150px);
-        column-gap: 10px;
-        row-gap: 10px;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
         border: 2px solid greenyellow;
     }
 
     .im1 {
+        width: 100px;
         height: 100px;
         border: 2px solid black;
     }
 
-    .below{
+    .usrnam{
+        text-align: center;
         border: 2px solid blue;
     }

@@ -1,92 +1,55 @@
-    .link{
-        color: rgba(232, 224, 114, 0.982);
-        text-decoration: none;
-        transition: color 0.3s;
-        display: inline-block;
-    }
-
-    .link:hover{
-        color: yellowgreen;
-    }
-
-    .heading{
-        text-align: center;
-        font-weight: 200;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    }
     
-    .hometext{
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: 300;
-        text-align: center;
-        color: rgb(69, 128, 187);
+
+    .srch{
+        width: 100px;
+        padding-left: 5px;
+        border-radius: 50px;
+        border: none;
+        font-style: italic;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.400);
     }
 
-    .note{
-        font-style: italic;
-        color: rgb(67, 45, 27);
-    }
 
     .but-ton{
         text-align: center;
     }
 
-    button:hover{
+    .sign:hover,.join:hover{
         background-color: rgba(18, 90, 141, 0.973);
         color: yellowgreen;
         box-shadow: 0.2px 0.5px 10px rgba(45, 116, 208, 0.914);
     }
 
-    button:active{
+    .sign:active,.join:active{
         background-color: rgba(18, 90, 141, 0.973);
         color: rgb(255, 255, 255);
-        box-shadow: 0.2px 0.5px 5px rgb(0, 0, 0);
+        box-shadow: 0.1px 0.1px 5px rgb(57, 116, 253);
 
     }
-    button {
+
+    .sign,.join {
         text-align: center;
         font-weight: lighter;
         cursor: pointer;
         box-shadow: 0.4px 0.5px 5px rgba(0, 170, 255, 0.377);
         height: 30px;
         width: 100px;
-        border-radius: 15px;
+        border-radius: 25px;
         border-width: 0.5px;
         border: none;
         font-family: Arial, Helvetica, sans-serif;
         color: rgb(38, 74, 148);
         transition: background-color 0.5s, box-shadow 0.2s;
-    }
-    .sign,.join {
         background-color: rgba(137, 200, 255, 0.382);
-        margin-top: 10px;
+        margin-bottom: 10px;
     }
    
     .mail {
+        font-style: italic;
         margin-right: 5px;
         border-radius: 10px;
-        border-style: solid;
         padding-left: 10px;
         border: none;
         height: 30px;
         box-shadow: 0.2px 0.2px 5px rgba(25, 148, 185, 0.627);
-    }
-
-    .box1 {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        border: 2px solid greenyellow;
-    }
-
-    .im1 {
-        width: 100px;
-        height: 100px;
-        border: 2px solid black;
-    }
-
-    .usrnam{
-        text-align: center;
-        border: 2px solid blue;
     }

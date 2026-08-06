@@ -1,7 +1,6 @@
-    
-
     .srch{
         width: 100px;
+        height: 20px;
         padding-left: 5px;
         border-radius: 50px;
         border: none;
@@ -11,13 +10,17 @@
 
 
     .but-ton{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 200px;
         text-align: center;
     }
 
     .sign:hover,.join:hover{
         background-color: rgba(18, 90, 141, 0.973);
         color: yellowgreen;
-        box-shadow: 0.2px 0.5px 10px rgba(45, 116, 208, 0.914);
+        box-shadow: 0.2px 0.5px 10px rgba(11, 63, 131, 0.914);
     }
 
     .sign:active,.join:active{
@@ -38,16 +41,17 @@
         border-width: 0.5px;
         border: none;
         font-family: Arial, Helvetica, sans-serif;
-        color: rgb(38, 74, 148);
         transition: background-color 0.5s, box-shadow 0.2s;
-        background-color: rgba(137, 200, 255, 0.382);
+        background-color: black;
+        color: white;
         margin-bottom: 10px;
     }
    
     .mail {
         font-style: italic;
         margin-right: 5px;
-        border-radius: 10px;
+        margin-left: 5px;
+        border-radius: 15px;
         padding-left: 10px;
         border: none;
         height: 30px;

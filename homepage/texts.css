@@ -1,24 +1,32 @@
     body{
-        background-color: antiquewhite;
+        color: white;
+        background-color: rgb(41, 17, 79);
+        margin: 0;
+        height: 1000px;
+        padding-top: 70px;
+        font-family: Lexend;
     }
 
+
     .heading_box{
-        height: 50px;
+        position: fixed;
+        top: 0;
+        height: 70px;
         display: flex;
+        width: 100%;
         align-content: center;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: row;
-        background-color: rgb(51 34 34);
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-color: rgb(0, 0, 0);
+        font-family: Grey Qo;
+        font-size: 60px; 
     }
 
     .heading_link{
-        color: rgba(232, 224, 114, 0.982);
         text-decoration: none;
         transition: color 0.3s;
-        font-family: "Allura",cursive;
-        font-size: 50px; 
+        color: white;
     }
 
     .heading_link:hover{
@@ -35,12 +43,13 @@
         display: flex;
         flex: 0.2;
         gap: 30px;
+        flex-direction: row;
+        align-items: center;
         justify-content: flex-end;
     }
 
     .sec_a,.sec_b{
-        font-size: 20px;
-        background-color: antiquewhite;
+        font-size: 40px;
     }
 
     .pfp{
@@ -51,38 +60,66 @@
         margin-right: 10px;
     }
 
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(0, 0, 0, 0.764);
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        left: 0;
+        bottom: 0px;
+        top: 70px;
+        width: 200px;
+    }
+    
+    .item{
+        text-decoration: none;
+        font-family: Aboreto;
+        font-size: 20px;
+        color: white;
+        transition: color 0.2s;
+    }
+
+    .item:hover{
+        color:yellowgreen
+    }
+
     .note{
         font-style: italic;
-        color: rgb(67, 45, 27);
+        color: rgb(135, 0, 0);
     }
 
     .hometext{
+        font-size: 20px;
         display: flex;
         flex-direction: column;
-        font-family: Arial, Helvetica, sans-serif;
         font-weight: 300;
-        text-align: center;
-        color: rgb(69, 128, 187);
+        text-align: left;
+        margin-left: 260px;
         margin-bottom: 10px;
     }
 
     .bottom{
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-weight: lighter;
+        font-weight: 200;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        height: 50px;
+        height: 60px;
         text-align: center;
-        flex-wrap: nowrap;
-        color: rgba(232, 224, 114, 0.982);
-        background-color: rgb(51 34 34);
+        transition: color 0.3s;
+        color: white;
+        background-color: rgb(0, 0, 0);
+        position: sticky;
+        top: 100%;
+        font-family: aboreto;
     }
 
-    .bot_note{
-        margin-bottom: 0;
+    .bottom:hover{
+        color: yellowgreen;
     }
-    .bot_cop{
-        margin-top: 0;
+    
+    .bot_note,.bot_cop{
+        margin: 0;
     }
 

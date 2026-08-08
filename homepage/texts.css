@@ -8,8 +8,7 @@
 
     .top_box{
         display: flex;
-        height: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         flex-direction: row;
         justify-content: center;
     }
@@ -20,13 +19,15 @@
         justify-content: space-evenly;
         align-items: center;
         flex-direction: row;
-        flex-grow: 1;
+        flex-grow: 2;
+        width: 400px;
     }
 
     #item{
         text-decoration: none;
         font-size: 30px;
         color: white;
+        transition: color 0.2s;
     }
     
     #item:hover{
@@ -49,9 +50,13 @@
         height: 50px;
         width: 50px;
         border-radius: 50%;
+        transition: box-shadow 0.2s;
     }
 
-    
+    .pfp:hover{
+        box-shadow: 0.1px 0.1px 20px rgba(255, 255, 255, 0.682);
+    }
+
     .item{
         text-decoration: none;
         font-family: Aboreto;
@@ -61,17 +66,6 @@
     }
 
     .item:hover{
-        color:yellowgreen
-    }
-
-    .ori{
-        text-align: center;
-        font-size: 100px;
-        font-family: Grey Qo;
-        transition: color 0.2s;
-    }
-
-    .ori:hover{
         color:yellowgreen
     }
 
@@ -86,7 +80,7 @@
         flex-direction: column;
         font-weight: 300;
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 50px;
     }
 
     .bottom{

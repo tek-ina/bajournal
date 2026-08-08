@@ -1,78 +1,62 @@
     body{
         color: white;
-        background-color: rgb(41, 17, 79);
         margin: 0;
-        height: 1000px;
-        padding-top: 70px;
+        height: 100%;
+        width: 100%;
         font-family: Lexend;
     }
 
-
-    .heading_box{
-        position: fixed;
-        top: 0;
-        height: 70px;
+    .top_box{
         display: flex;
-        width: 100%;
-        align-content: center;
-        align-items: center;
-        justify-content: space-evenly;
+        margin-bottom: 50px;
         flex-direction: row;
-        background-color: rgb(0, 0, 0);
-        font-family: Grey Qo;
-        font-size: 60px; 
+        justify-content: center;
     }
 
-    .heading_link{
+
+    .left,.right{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: row;
+        flex-grow: 2;
+        width: 400px;
+    }
+
+    #item{
         text-decoration: none;
-        transition: color 0.3s;
+        font-size: 30px;
         color: white;
-    }
-
-    .heading_link:hover{
-        color: yellowgreen;
+        transition: color 0.2s;
     }
     
-    .mid_sec{
-        display: flex;
-        justify-content: center;
-        flex: 1;
+    #item:hover{
+        color: rgb(169, 245, 17);
     }
 
-    .right_sec,.left_sec{
-        display: flex;
-        flex: 0.2;
-        gap: 30px;
-        flex-direction: row;
-        align-items: center;
-        justify-content: flex-end;
+    .tit_le{
+        text-decoration: none;
+        color: white;
+        transition: color 0.2s;
+        font-family: Grey Qo;
+        font-size: 100px;
     }
-
-    .sec_a,.sec_b{
-        font-size: 40px;
+     
+    .tit_le:hover{
+        color: rgb(169, 245, 17);
     }
 
     .pfp{
-        height: 30px;
-        width: 30px;
-        border-radius: 50px;    
-        border:1px solid saddlebrown;
-        margin-right: 10px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        transition: box-shadow 0.2s;
     }
 
-    .navbar{
-        display: flex;
-        flex-direction: column;
-        background-color: rgba(0, 0, 0, 0.764);
-        align-items: center;
-        justify-content: space-around;
-        position: fixed;
-        left: 0;
-        bottom: 0px;
-        top: 70px;
-        width: 200px;
+    .pfp:hover{
+        box-shadow: 0.1px 0.1px 20px rgba(255, 255, 255, 0.682);
     }
-    
+
     .item{
         text-decoration: none;
         font-family: Aboreto;
@@ -95,9 +79,8 @@
         display: flex;
         flex-direction: column;
         font-weight: 300;
-        text-align: left;
-        margin-left: 260px;
-        margin-bottom: 10px;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     .bottom{
@@ -110,13 +93,12 @@
         transition: color 0.3s;
         color: white;
         background-color: rgb(0, 0, 0);
-        position: sticky;
-        top: 100%;
-        font-family: aboreto;
+        margin-top: 70%;
     }
 
     .bottom:hover{
-        color: yellowgreen;
+        color: rgb(169, 245, 17);
+        cursor: default;
     }
     
     .bot_note,.bot_cop{
